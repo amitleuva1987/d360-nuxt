@@ -27,11 +27,11 @@
                                         <div class="font-display text-base text-slate-900">Gaurav Duggal</div>
                                         <div class="mt-1 text-sm text-slate-500">President @ Reach Nexus</div>
                                     </div>
-                                    <div class="overflow-hidden rounded-full bg-slate-50">
-                                        <nuxt-img alt=""
-                                            src="/img/Gaurav.jpeg"
+                                    <div class="overflow-hidden rounded-full bg-slate-50"><img alt=""
+                                            srcset="@/assets/img/Gaurav.jpeg"
+                                            src="@/assets/img/Gaurav.jpeg"
                                             width="56" height="56" decoding="async" data-nimg="1"
-                                            class="h-14 w-14 object-cover" loading="lazy" style="color:transparent" />
+                                            class="h-14 w-14 object-cover" loading="lazy" style="color:transparent">
                                     </div>
                                 </figcaption>
                             </figure>
@@ -54,10 +54,11 @@ With over 1 billion ads in their database, it's a no-brainer to reverse-engineer
                                         <div class="font-display text-base text-slate-900">Franklin Nwangene</div>
                                         <div class="mt-1 text-sm text-slate-500">CEO @ Blogimize.com</div>
                                     </div>
-                                    <div class="overflow-hidden rounded-full bg-slate-50"><nuxt-img alt=""
-                                            src="/img/Franklin.jpeg"
+                                    <div class="overflow-hidden rounded-full bg-slate-50"><img alt=""
+                                            srcset="@/assets/img/Franklin.jpeg"
+                                            src="@/assets/img/Franklin.jpeg"
                                             width="56" height="56" decoding="async" data-nimg="1"
-                                            class="h-14 w-14 object-cover" loading="lazy" style="color:transparent" />
+                                            class="h-14 w-14 object-cover" loading="lazy" style="color:transparent">
                                     </div>
                                 </figcaption>
                             </figure>
@@ -79,11 +80,11 @@ With over 1 billion ads in their database, it's a no-brainer to reverse-engineer
                                         <div class="font-display text-base text-slate-900">Jesper Vig Troelsen</div>
                                         <div class="mt-1 text-sm text-slate-500">Founder @ GetClients.dk</div>
                                     </div>
-                                    <div class="overflow-hidden rounded-full bg-slate-50"><nuxt-img alt=""
-                                            
-                                            src="/img/JesperTroelsenDiscover360.jpeg"
+                                    <div class="overflow-hidden rounded-full bg-slate-50"><img alt=""
+                                            srcset="@/assets/img/JesperTroelsenDiscover360.jpeg"
+                                            src="@/assets/img/JesperTroelsenDiscover360.jpeg"
                                             width="56" height="56" decoding="async" data-nimg="1"
-                                            class="h-14 w-14 object-cover" loading="lazy" style="color:transparent" />
+                                            class="h-14 w-14 object-cover" loading="lazy" style="color:transparent">
                                     </div>
                                 </figcaption>
                             </figure>
@@ -109,11 +110,11 @@ With over 1 billion ads in their database, it's a no-brainer to reverse-engineer
                                         <div class="font-display text-base text-slate-900">Mohsin Jamil</div>
                                         <div class="mt-1 text-sm text-slate-500">Founder of SociaLleads.ca</div>
                                     </div>
-                                    <div class="overflow-hidden rounded-full bg-slate-50"><nuxt-img alt=""
-                                            
-                                            src="/img/Mohsin.jpeg"
+                                    <div class="overflow-hidden rounded-full bg-slate-50"><img alt=""
+                                            srcset="@/assets/img/Mohsin.jpeg"
+                                            src="@/assets/img/Mohsin.jpeg"
                                             width="56" height="56" decoding="async" data-nimg="1"
-                                            class="h-14 w-14 object-cover" loading="lazy" style="color:transparent" />
+                                            class="h-14 w-14 object-cover" loading="lazy" style="color:transparent">
                                     </div>
                                 </figcaption>
                             </figure>
@@ -135,11 +136,11 @@ With over 1 billion ads in their database, it's a no-brainer to reverse-engineer
                                         <div class="font-display text-base text-slate-900">Isaac Ovid</div>
                                         <div class="mt-1 text-sm text-slate-500">Strategist at ParadoxStudiostt.com</div>
                                     </div>
-                                    <div class="overflow-hidden rounded-full bg-slate-50"><nuxt-img alt=""
-                                            
-                                            src="/img/Isaac.jpeg"
+                                    <div class="overflow-hidden rounded-full bg-slate-50"><img alt=""
+                                            srcset="@/assets/img/Isaac.jpeg"
+                                            src="@/assets/img/Isaac.jpeg"
                                             width="56" height="56" decoding="async" data-nimg="1"
-                                            class="h-14 w-14 object-cover" loading="lazy" style="color:transparent" />
+                                            class="h-14 w-14 object-cover" loading="lazy" style="color:transparent">
                                     </div>
                                 </figcaption>
                             </figure>
@@ -165,11 +166,11 @@ With over 1 billion ads in their database, it's a no-brainer to reverse-engineer
                                         <div class="font-display text-base text-slate-900">Daniel Rosen</div>
                                         <div class="mt-1 text-sm text-slate-500">Founder of CreditRepairCloud.com</div>
                                     </div>
-                                    <div class="overflow-hidden rounded-full bg-slate-50"><nuxt-img alt=""
-                                            
-                                            src="/img/Daniel.jpeg"
+                                    <div class="overflow-hidden rounded-full bg-slate-50"><img alt=""
+                                            srcset="@/assets/img/Daniel.jpeg"
+                                            src="@/assets/img/Daniel.jpeg"
                                             width="56" height="56" decoding="async" data-nimg="1"
-                                            class="h-14 w-14 object-cover" loading="lazy" style="color:transparent" />
+                                            class="h-14 w-14 object-cover" loading="lazy" style="color:transparent">
                                     </div>
                                 </figcaption>
                             </figure>
@@ -191,11 +192,11 @@ With over 1 billion ads in their database, it's a no-brainer to reverse-engineer
                                         <div class="font-display text-base text-slate-900">Andriy Moroz</div>
                                         <div class="mt-1 text-sm text-slate-500">CEO of 7 Figure eCom Brand</div>
                                     </div>
-                                    <div class="overflow-hidden rounded-full bg-slate-50"><nuxt-img alt=""
-                                            
-                                            src="/img/Moroz.jpeg"
+                                    <div class="overflow-hidden rounded-full bg-slate-50"><img alt=""
+                                            srcset="@/assets/img/Moroz.jpeg"
+                                            src="@/assets/img/Moroz.jpeg"
                                             width="56" height="56" decoding="async" data-nimg="1"
-                                            class="h-14 w-14 object-cover" loading="lazy" style="color:transparent" />
+                                            class="h-14 w-14 object-cover" loading="lazy" style="color:transparent">
                                     </div>
                                 </figcaption>
                             </figure>
