@@ -92,7 +92,7 @@
                 <div>
                   <span
                     class="flex h-12 w-12 items-center justify-center rounded-md bg-gradient-to-r from-purple-600 to-indigo-600">
-                    <InboxIcon class="h-6 w-6 text-white" aria-hidden="true" />
+                    <SparklesIcon class="h-6 w-6 text-white" aria-hidden="true" />
                   </span>
                 </div>
                 <div class="mt-6">
@@ -109,17 +109,17 @@
               <div class="mt-8 border-t border-gray-200 pt-6">
                 <blockquote>
                   <div>
-                    <p class="text-base text-gray-500">&ldquo;Absolute game changer. No more guessing or wasting
-                      thousands on seeing what ads work and not&rdquo;</p>
+                    <p class="text-base text-gray-500">&ldquo;Don't sleep on this. Rudy and his team are constantly
+                      adding to and improving the platform at lightning speed.
+                      I've been buying media at every level for 21 years and have used many research tools, and I've
+                      never seen a company iterate as fast as these guys.&rdquo;</p>
                   </div>
                   <footer class="mt-3">
                     <div class="flex items-center space-x-3">
                       <div class="flex-shrink-0">
-                        <img class="h-6 w-6 rounded-full"
-                          src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
-                          alt="" />
+                        <img class="h-6 w-6 rounded-full" src="@/assets/img/Gaurav.jpeg" alt="" />
                       </div>
-                      <div class="text-base font-medium text-gray-700">Marcia Hill, Digital Marketing Manager</div>
+                      <div class="text-base font-medium text-gray-700">Gaurav Duggal, President @ Reach Nexus</div>
                     </div>
                   </footer>
                 </blockquote>
@@ -129,7 +129,7 @@
               <div class="-mr-48 pl-4 sm:pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
                 <img
                   class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                  src="@/assets/img/wl/wl-3.png" alt="Inbox user interface" />
+                  src="@/assets/img/wl/wl-7.png" alt="Inbox user interface" />
               </div>
             </div>
           </div>
@@ -145,9 +145,9 @@
                   </span>
                 </div>
                 <div class="mt-6">
-                  <h2 class="text-3xl font-bold tracking-tight text-gray-900">Advanced Billing</h2>
-                  <p class="mt-4 text-lg text-gray-500">State of the art billing logic baked in. <br>Connect your Stripe
-                    or Paddle account and start taking payments</p>
+                  <h2 class="text-3xl font-bold tracking-tight text-gray-900">360 Super Insights</h2>
+                  <p class="mt-4 text-lg text-gray-500">Deep insights into all your customers activities to enable
+                    strong MRR / ARR + LTV.</p>
                   <div class="mt-6">
                     <a href="https://calendly.com/rudybekker/discover360-saas"
                       class="inline-flex rounded-md border border-transparent bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-indigo-700">Get
@@ -160,7 +160,7 @@
               <div class="-ml-48 pr-4 sm:pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
                 <img
                   class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                  src="@/assets/img/wl/wl-5.png" alt="Customer profile user interface" />
+                  src="@/assets/img/wl/wl-8.png" alt="Customer profile user interface" />
               </div>
             </div>
           </div>
@@ -173,8 +173,7 @@
             <div>
               <div><span
                   class="flex h-12 w-12 items-center justify-center rounded-md bg-gradient-to-r from-purple-600 to-indigo-600">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                     stroke="currentColor" aria-hidden="true" class="h-6 w-6 text-white">
                     <path stroke-linecap="round" stroke-linejoin="round"
                       d="M2.25 13.5h3.86a2.25 2.25 0 012.012 1.244l.256.512a2.25 2.25 0 002.013 1.244h3.218a2.25 2.25 0 002.013-1.244l.256-.512a2.25 2.25 0 012.013-1.244h3.859m-19.5.338V18a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18v-4.162c0-.224-.034-.447-.1-.661L19.24 5.338a2.25 2.25 0 00-2.15-1.588H6.911a2.25 2.25 0 00-2.15 1.588L2.35 13.177a2.25 2.25 0 00-.1.661z">
@@ -182,8 +181,9 @@
                   </svg>
                 </span></div>
               <div class="mt-6">
-                <h2 class="text-3xl font-bold tracking-tight text-gray-900">Feature Rich!</h2>
-                <p class="mt-4 text-lg text-gray-500">Jam Packed with game changing features and tools designed to grow and scale any business or company!</p>
+                <h2 class="text-3xl font-bold tracking-tight text-gray-900">Native Support System</h2>
+                <p class="mt-4 text-lg text-gray-500">Support your customers at the highest possible level with your own
+                  custom built-in support system!</p>
                 <div class="mt-6"><a href="https://calendly.com/rudybekker/discover360-saas"
                     class="inline-flex rounded-md border border-transparent bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-indigo-700">Get
                     started</a></div>
@@ -197,8 +197,7 @@
                 <footer class="mt-3">
                   <div class="flex items-center space-x-3">
                     <div class="flex-shrink-0"><img class="h-6 w-6 rounded-full"
-                        src="@/assets/img/JesperTroelsenDiscover360.jpeg"
-                        alt=""></div>
+                        src="@/assets/img/JesperTroelsenDiscover360.jpeg" alt=""></div>
                     <div class="text-base font-medium text-gray-700">Jesper Vig Troelsen, GetClients.dk</div>
                   </div>
                 </footer>
@@ -208,7 +207,38 @@
           <div class="mt-12 sm:mt-16 lg:mt-0">
             <div class="-mr-48 pl-4 sm:pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0"><img
                 class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                src="@/assets/img/wl/wl-2.png" alt="Inbox user interface"></div>
+                src="@/assets/img/wl/wl-9.png" alt="Inbox user interface"></div>
+          </div>
+        </div>
+      </div>
+      <div class="mt-24">
+        <div class="lg:mx-auto lg:grid lg:max-w-7xl lg:grid-flow-col-dense lg:grid-cols-2 lg:gap-24 lg:px-8">
+          <div class="mx-auto max-w-xl px-4 sm:px-6 lg:col-start-2 lg:mx-0 lg:max-w-none lg:py-32 lg:px-0">
+            <div>
+              <div>
+                <span
+                  class="flex h-12 w-12 items-center justify-center rounded-md bg-gradient-to-r from-purple-600 to-indigo-600">
+                  <SparklesIcon class="h-6 w-6 text-white" aria-hidden="true" />
+                </span>
+              </div>
+              <div class="mt-6">
+                <h2 class="text-3xl font-bold tracking-tight text-gray-900">Native Affiliate System</h2>
+                <p class="mt-4 text-lg text-gray-500">Explode your sales with your very own affiliate system.<br>Reward
+                  your customers with commisions + 2way credit distribution on successful referrals</p>
+                <div class="mt-6">
+                  <a href="https://calendly.com/rudybekker/discover360-saas"
+                    class="inline-flex rounded-md border border-transparent bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-2 text-base font-medium text-white shadow-sm hover:from-purple-700 hover:to-indigo-700">Get
+                    started</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mt-12 sm:mt-16 lg:col-start-1 lg:mt-0">
+            <div class="-ml-48 pr-4 sm:pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+              <img
+                class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
+                src="@/assets/img/wl/wl-10.png" alt="Customer profile user interface" />
+            </div>
           </div>
         </div>
       </div>
@@ -238,6 +268,8 @@
     </main>
   </div>
   <PricingAdvanced />
+  <FaqSpecial />
+  <Tesimonials />
 </template>
   
 <script>
@@ -308,8 +340,8 @@ const features = [
 ]
 
 export default {
-  components:{
-    ChevronRightIcon, 
+  components: {
+    ChevronRightIcon,
     StarIcon,
     ArrowUturnLeftIcon,
     Bars3Icon,
@@ -327,8 +359,8 @@ export default {
     XMarkIcon,
     ChevronDownIcon
   },
-  data(){
-    return{
+  data() {
+    return {
       user_email: '',
       features
     }
@@ -343,9 +375,9 @@ export default {
           'Content-Type': 'application/json',
         }
       }).then(response => {
-        window.location.href = 'https://calendly.com/rudybekker/discover360-saas?email='+this.user_email
+        window.location.href = 'https://calendly.com/rudybekker/discover360-saas?email=' + this.user_email
       }).catch(error => {
-         console.log(error)
+        console.log(error)
       })
     }
   }

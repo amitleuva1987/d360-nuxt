@@ -8,8 +8,13 @@ module.exports = {
     "./nuxt.config.{js,ts}",
     "./app.vue"
   ],
+  plugins: [
+    require("@tailwindcss/forms"),
+    require('@tailwindcss/typography'),
+    require("@tailwindcss/aspect-ratio"),
+    require('@tailwindcss/line-clamp'),
+  ],
   theme: {
     extend: {},
   },
-  plugins: [],
 }

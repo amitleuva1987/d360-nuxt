@@ -1,11 +1,11 @@
 <template>
-  <div class="bg-white">
+  <div id="ltd" class="bg-white">
     <div class="pt-12 sm:pt-16 lg:pt-24">
       <div class="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
         <div class="mx-auto max-w-3xl space-y-2 lg:max-w-none">
-          <h2 class="block text-center text-lg font-semibold text-indigo-600">Pricing</h2>
-          <p class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">Exclusive Launch Deal</p>
-          <p class="text-xl text-gray-900">14 DAY MONEY BACK GUARANTEE</p>
+          <h2 class="block text-center text-lg font-semibold text-indigo-600">⏰ Lifetime Offer Expires Soon ⏰</h2>
+          <p class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">Exclusive Lifetime Launch Deal</p>
+          <p class="text-xl text-gray-900">Pay Once. Use Forever</p>
         </div>
       </div>
     </div>
@@ -20,8 +20,8 @@
                   <h3 class="inline-flex rounded-full bg-indigo-100 px-4 py-1 text-base font-semibold text-indigo-600" id="tier-standard">{{ tier.name }}</h3>
                 </div>
                 <div class="mt-4 flex items-baseline text-6xl font-bold tracking-tight">
-                  ${{ tier.priceMonthly }}
-                  <span class="ml-1 text-2xl font-medium tracking-normal text-gray-500">/mo</span>
+                  ${{ tier.priceLTD }}
+                  <span class="ml-1 text-2xl font-medium tracking-normal text-gray-500">/One-time</span>
                 </div>
                 <p class="mt-5 text-lg text-gray-500">{{ tier.description }}</p>
               </div>
@@ -66,35 +66,16 @@ import { CheckIcon } from '@heroicons/vue/24/outline'
 
 const tiers = [
   {
-    name: 'The Free Plan',
-    href: 'https://dash.discover360.app/register',
-    priceMonthly: 0,
-    description: 'Free Foverever. No credit card required.',
-    features: [
-      '5 Free Searches Per Month',
-      'Facebook',
-      'Instagram',
-    ],
-  },
-  {
-    name: 'The Basic Plan',
-    href: 'https://dash.discover360.app/register',
-    priceMonthly: 49,
+    name: 'Premium LTD',
+    href: 'https://buy.stripe.com/3cs9DL0OtdaM6v63cc',
+    priceLTD: 48,
     description: 'For individuals and small businesses',
     features: [
-      '1k Search Credits P/M',
+      '500 Search Credits P/M',
       'Ad Insights & Analytics',
-      'Facebook',
-      'Instagram',
-      'Youtube',
-      'Twitter',
-      'Pinterest',
-      'Google Ads',
-      'TikTok',
-      'AdMob',
-      'LinkedIn (coming soon)',
-      'Reddit (coming soon)',
-      'AI Ad Copy Generator (Coming Soon)',
+      'Demographic & Engagement Filters',
+      'Geo location filters',
+      'Video & Image Ad Integration',
     ],
   },
 ]

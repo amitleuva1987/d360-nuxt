@@ -31,6 +31,6 @@ const metrics = [
   { id: 1, stat: '9+', emphasis: 'Most Popular Platforms.', rest: 'That includes Facebook, Instagram, YouTube, Pinterest, GoogleAds + many more ' },
   { id: 2, stat: '100+', emphasis: 'Global access.', rest: 'Analyze campaigns running in over 100+ countries, covering every major country.' },
   { id: 3, stat: '1000+', emphasis: 'Niches & Categories', rest: 'laoreet amet lacus nibh integer quis.' },
-  { id: 4, stat: '1B+', emphasis: 'Ads & Creatives.', rest: 'Massive & uptodate database of Billionss of ads' },
+  { id: 4, stat: '1B+', emphasis: 'Ads & Creatives.', rest: 'Massive & up to date database of Billionss of ads' },
 ]
   </script>

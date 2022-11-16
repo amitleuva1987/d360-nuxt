@@ -192,6 +192,8 @@
       </main>
     </div>
     <PricingBasic />
+    <FaqSpecial />
+  <Tesimonials />
   </template>
   
   <script>

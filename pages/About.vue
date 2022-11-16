@@ -1,8 +1,5 @@
 <template>
   <div class="relative overflow-hidden bg-white py-16">
-    <metainfo>
-      <template v-slot:title="{ content }">{{ content }}</template>
-    </metainfo>
     <div class="hidden lg:absolute lg:inset-y-0 lg:block lg:h-full lg:w-full lg:[overflow-anchor:none]">
       <div class="relative mx-auto h-full max-w-prose text-lg" aria-hidden="true">
         <svg class="absolute top-12 left-full translate-x-32 transform" width="404" height="384" fill="none" viewBox="0 0 404 384">
@@ -43,9 +40,6 @@
     </div>
   </div>
 <Stats />
-<Pricing />
+<!-- <Pricing /> -->
 </template>
 
-<script>
-
-</script>

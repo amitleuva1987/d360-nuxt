@@ -5,7 +5,7 @@
         <div class="mx-auto max-w-3xl space-y-2 lg:max-w-none">
           <h2 class="block text-center text-lg font-semibold text-indigo-600">Pricing</h2>
           <p class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">Exclusive WL SaaS Deal</p>
-          <p class="text-xl text-gray-900">100 Licenses Available</p>
+          <p class="text-xl text-gray-900"><b>All WL Licenses Require An Annual Subscription</b><br>100 Licenses Available.</p>
         </div>
       </div>
     </div>
@@ -68,8 +68,8 @@ const tiers = [
   {
     name: 'The Hobbyist',
     href: 'https://calendly.com/rudybekker/discover360-saas',
-    priceMonthly: 249,
-    description: 'Free Foverever. No credit card required.',
+    priceMonthly: '249',
+    description: 'For those that want to get started with SaaS',
     features: [
       'Up to 250 Users',
       'Turnkey WL SaaS Framework',
@@ -78,8 +78,8 @@ const tiers = [
       'Authentication & Authorization',
       'User Management',
       'Admin Dashboard',
-      'Embedable Frontend Into Any Website or App',
       'All Ad Platforms',
+      'AI Ad Copy Generator (Coming Soon)',
     ],
   },
   {
@@ -96,7 +96,7 @@ const tiers = [
       'User Management',
       'Admin Dashboard',
       'Embedable Frontend Into Any Website or App',
-      'All Ad Platforms',
+      'AI Ad Copy Generator (Coming Soon)',
     ],
   },
 ]
