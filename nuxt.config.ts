@@ -12,10 +12,11 @@ export default defineNuxtConfig({
           },
         },
     },
-    modules: [
-      '@nuxt/image-edge',
+    buildModules: [
+      '@aceforth/nuxt-optimized-images',
     ],
-    image: {
-      dir: 'assets/',
-    },
+  
+    optimizedImages: {
+      optimizeImages: true
+    }
 })
