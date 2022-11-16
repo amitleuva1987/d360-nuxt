@@ -150,10 +150,11 @@
               <div
                 class="relative -mr-40 pl-4 sm:mx-auto sm:max-w-3xl sm:px-0 lg:h-full lg:max-w-none lg:pl-12"
               >
-                <img
+                <nuxt-img
                   class="w-full rounded-md shadow-xl ring-1 ring-black ring-opacity-5 lg:h-full lg:w-auto lg:max-w-none"
-                  src="@/assets/img/d360-1.png"
+                  src="/img/d360-1.png"
                   alt=""
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -218,10 +219,11 @@
                   <footer class="mt-3">
                     <div class="flex items-center space-x-3">
                       <div class="flex-shrink-0">
-                        <img
+                        <nuxt-img
                           class="h-6 w-6 rounded-full"
-                          src="@/assets/img/Gaurav.jpeg"
+                          src="/img/Gaurav.jpeg"
                           alt=""
+                          loading="lazy"
                         />
                       </div>
                       <div class="text-base font-medium text-gray-700">
@@ -236,10 +238,11 @@
               <div
                 class="-mr-48 pl-4 sm:pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0"
               >
-                <img
+                <nuxt-img
                   class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                  src="@/assets/img/d360-8.png"
+                  src="/img/d360-8.png"
                   alt="Inbox user interface"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -287,10 +290,11 @@
               <div
                 class="-ml-48 pr-4 sm:pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0"
               >
-                <img
+                <nuxt-img
                   class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
-                  src="@/assets/img/d360-4.1.png"
+                  src="/img/d360-4.1.png"
                   alt="Customer profile user interface"
+                  loading="lazy"
                 />
               </div>
             </div>
