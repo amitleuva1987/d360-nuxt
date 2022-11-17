@@ -14,7 +14,6 @@
     "axios": "^1.1.2"
   },
   "devDependencies": {
-    "@aceforth/nuxt-optimized-images": "^1.4.0",
     "@heroicons/vue": "^2.0.11",
     "@nuxt/image-edge": "^1.0.0-27809804.194d2d6",
     "@tailwindcss/aspect-ratio": "^0.4.2",

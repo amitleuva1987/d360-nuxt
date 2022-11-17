@@ -72,7 +72,7 @@
                 <div class="relative -mr-40 pl-4 sm:mx-auto sm:max-w-3xl sm:px-0 lg:h-full lg:max-w-none lg:pl-12">
                   <img
                     class="w-full rounded-md shadow-xl ring-1 ring-black ring-opacity-5 lg:h-full lg:w-auto lg:max-w-none"
-                    src="@/assets/img/d360-1.png" alt="" />
+                    src="~/assets/img/d360-1.png" alt="" />
                 </div>
               </div>
             </div>
@@ -127,8 +127,9 @@
               <div class="mt-12 sm:mt-16 lg:mt-0">
                 <div class="-mr-48 pl-4 sm:pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
                   <img
+                    src="@/assets/img/d360-8.png"
                     class="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
-                    src="@/assets/img/d360-8.png" alt="Inbox user interface" />
+                    alt="Inbox user interface" />
                 </div>
               </div>
             </div>
