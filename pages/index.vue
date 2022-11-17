@@ -118,7 +118,7 @@
                             src="https://images.unsplash.com/photo-1509783236416-c9ad59bae472?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80"
                             alt="" />
                         </div>
-                        <div class="text-base font-medium text-gray-700">Marcia Hill, Digital Marketing Manager</div>
+                        <div class="text-base font-medium text-gray-700">Marcia Hill, Digital Marketing Manager </div>
                       </div>
                     </footer>
                   </blockquote>
