@@ -450,28 +450,18 @@ export default {
     };
   },
   methods: {
-    processHomeActions() {
-      axios
-        .post(
-          `https://c823e77566a5ce7a7a58f44e0c197027.m.pipedream.net`,
-          {
-            email: this.user_email,
-            tag: "D360-LTD",
-          },
-          {
-            headers: {
-              "Content-Type": "application/json",
-            },
+    async processHomeActions() {
+        const res = await $fetch(`https://c823e77566a5ce7a7a58f44e0c197027.m.pipedream.net`, {
+          method:'POST',
+          body:{
+          "email": this.user_email,
+          "tag": "D360-HomePage"
           }
-        )
-        .then((response) => {
-          // this.$router.push({path: "/demo/1"})
-          window.location.href = "/ltd#ltd";
         })
-        .catch((error) => {
-          console.log(error);
-        });
-    },
+        if(res){
+          window.location.href = 'https://dash.discover360.app/register?email='+this.user_email
+        }
+      }
   },
 };
 </script>

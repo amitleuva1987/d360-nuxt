@@ -366,20 +366,18 @@ export default {
     }
   },
   methods: {
-    processHomeActions() {
-      axios.post(`https://15741104f3c3b26603fd6da407109f24.m.pipedream.net`, {
-        "email": this.user_email,
-        "tag": "D360-Website-SaaS"
-      }, {
-        headers: {
-          'Content-Type': 'application/json',
+    async processHomeActions() {
+        const res = await $fetch(`https://c823e77566a5ce7a7a58f44e0c197027.m.pipedream.net`, {
+          method:'POST',
+          body:{
+          "email": this.user_email,
+          "tag": "D360-HomePage"
+          }
+        })
+        if(res){
+          window.location.href = 'https://dash.discover360.app/register?email='+this.user_email
         }
-      }).then(response => {
-        window.location.href = 'https://calendly.com/rudybekker/discover360-saas?email=' + this.user_email
-      }).catch(error => {
-        console.log(error)
-      })
-    }
+     }
   }
 }
 </script>

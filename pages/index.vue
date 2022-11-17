@@ -198,7 +198,6 @@
   </template>
   
   <script>
-  
   import { ChevronRightIcon, StarIcon } from '@heroicons/vue/20/solid'
   import { defineComponent, h } from 'vue'
   import { Popover, PopoverButton, PopoverGroup, PopoverPanel } from '@headlessui/vue'
@@ -264,6 +263,16 @@
     },
   ]
   export default {
+    head: {
+    title: "Discover360 | Instantly Reach Your Future Customers",
+    meta: [
+          { name: 'og:title', content: 'SuperAgency | Scale Your Business'},
+          { name: 'og:type', content: 'website'},
+          { name: 'twitter:card', content: 'summary_large_image'},
+          { name: 'twitter:creator', content: '@Rudy_Bekker'},
+          { name: 'twitter:image:alt', content: 'Amazing'}
+    ]
+    },
     components:{
       ChevronRightIcon, 
       StarIcon,
@@ -290,20 +299,17 @@
       }
     },
     methods: {
-      processHomeActions() {
-        axios.post(`https://c823e77566a5ce7a7a58f44e0c197027.m.pipedream.net`, {
+      async processHomeActions() {
+        const res = await $fetch(`https://c823e77566a5ce7a7a58f44e0c197027.m.pipedream.net`, {
+          method:'POST',
+          body:{
           "email": this.user_email,
           "tag": "D360-HomePage"
-        }, {
-          headers: {
-            'Content-Type': 'application/json',
           }
-        }).then(response => {
-          // this.$router.push({path: "/demo/1"})
-          window.location.href = 'https://dash.discover360.app/register?email='+this.user_email
-        }).catch(error => {
-           console.log(error)
         })
+        if(res){
+          window.location.href = 'https://dash.discover360.app/register?email='+this.user_email
+        }
       }
     }
   }

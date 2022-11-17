@@ -1,15 +1,17 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
-    // app: {
-    //   head: {
-    //     viewport: 'width=500, initial-scale=1',
-    //     title: 'Discover360 | Instantly Reach Your Future Customers',
-    //     meta: [
-    //       // <meta name="description" content="My amazing site">
-    //       { name: 'description', content: 'Make better marketing decisions by learning what ads are already successful. Get comprehensive data on profitable native campaigns.' }
-    //     ],
-    //   }
-    // },
+    app: {
+      head: {
+        viewport: 'width=500, initial-scale=1',
+        title: 'Discover360 | Instantly Reach Your Future Customers',
+        meta: [
+          // <meta name="description" content="My amazing site">
+          { name: 'description', content: 'Make better marketing decisions by learning what ads are already successful. Get comprehensive data on profitable native campaigns.' },
+          { name: 'og:title', content: 'SuperAgency | Scale Your Business'},
+          { name: 'og:type', content: 'website'},
+        ],
+      }
+    },
     css: ["@/assets/css/styles.css"],
     build: {
         transpile: ['@headlessui/vue'],
@@ -22,6 +24,7 @@ export default defineNuxtConfig({
           },
         },
     },
+    
 
     modules: [
       '@nuxt/image-edge',
