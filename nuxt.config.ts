@@ -1,5 +1,16 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
+    app: {
+      head: {
+        charset: 'utf-16',
+        viewport: 'width=500, initial-scale=1',
+        title: 'Discover360 | Instantly Reach Your Future Customers',
+        meta: [
+          // <meta name="description" content="My amazing site">
+          { name: 'description', content: 'Make better marketing decisions by learning what ads are already successful. Get comprehensive data on profitable native campaigns.' }
+        ],
+      }
+    },
     css: ["@/assets/css/styles.css"],
     build: {
         transpile: ['@headlessui/vue'],
